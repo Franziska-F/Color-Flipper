@@ -18,4 +18,5 @@ function getColor() {
   console.log(randomNumber);
   document.body.style.backgroundColor = colors[randomNumber];
   showColor.textContent = colors[randomNumber];
+  console.log(colors.length);
 }
